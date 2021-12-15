@@ -8,6 +8,8 @@ body{
     position: relative;
     background-color;
     margin: 0px;
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
 }
 header{
     position: relative;
@@ -42,14 +44,83 @@ header > p{
 .subtítulo{
     color: white;
     text-align: center;
-    font-family:  'Passion One';
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    
 
 
 }
 .subtítulo > a{
     color: white;
     text-decoration: none;
-    font-family: 'Passion one';
-    font-size: 3vw;
+    font-family: verdana, sans-serif;
+    font-size: 2vw;
     font-weight: lighter;
+
 }
+.subtítulo:hover{
+    text-decoration: underline;
+}
+section{
+    min-height: 40vw;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.branco{
+    box-shadow: 0px px 10px rgba(0, 0, 0, 0.699);
+}
+#flor{
+    height: 60vw;
+    background-color: black;
+    background-image: url('./pacote-d012/imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#flor > p{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 40vw;
+    padding: 10px;
+    color: white;
+}
+#letras{
+    height: 60vw;
+    background-color: black;
+    background-image: url('./pacote-d012/imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#letras > p{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 40vw;
+    padding: 10px;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+footer > h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: normal;
+    margin: 0px;
+}
+footer > h2 > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    
+}
+footer > h2 > a:hover{
+    text-decoration: underline;
+}
+
